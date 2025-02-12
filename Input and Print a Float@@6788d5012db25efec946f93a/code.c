@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-    float x = 3.14;
+    float x;
+    scanf("%f", x)
     printf("%.2f", x);
     return 0;
 }
