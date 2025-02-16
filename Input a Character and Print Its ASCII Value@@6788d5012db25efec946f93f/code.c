@@ -2,13 +2,12 @@
 int main(){
     char x;
     printf("ASCII Value: ");
-    scanf("%c", x);
+    scanf("%c", &x);
     printf("%d", x);
     return 0;
 }
 
 // #include <stdio.h>
-
 // int main() {
 //     char c;
 //     printf("Enter a character: ");
