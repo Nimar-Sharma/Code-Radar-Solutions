@@ -1,12 +1,14 @@
+// Find the Sum of the Digits of a Given Number
 #include <stdio.h>
 int main(){
-    int x, y;
+    int x, sum =0;
+    printf("qwqqw");
     scanf("%d", &x);
-    if(x !> 0){
-        printf("False");
-    }
-    else{
-        printf("True");
+    while(x != 0){
+        x%=10;
+        int digit = x;
+        sum+=x;
+        printf("%d" , sum);
     }
     return 0;
 }
