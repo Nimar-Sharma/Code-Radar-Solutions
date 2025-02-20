@@ -2,7 +2,7 @@
 int main(){
     int x;
     scanf("%d", &f);
-    if(x !< 0){
+    if(!(x < 0)){
         printf("True");
     }
     else{
