@@ -8,5 +8,5 @@ int main(){
     else{
         printf("Odd");
     }
-    retunr 0;
+    return 0;
 }
